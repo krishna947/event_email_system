@@ -65,3 +65,5 @@ def send_emails_for_today_events():
             )
 
             logging.error(f"Error sending email to {employee.email} for {event_type}: {e}")
+
+    logging.info("Sending event task completed.")
